@@ -2,8 +2,8 @@ Minimal ghcide bug
 ==================
 
 Building with `cabal run test` triggers the expected type error when compiling
-Test.hs. When run with `ghcide version: 0.2.0 (GHC: 8.10.1)` however, it wil
-l fail with an error saying that the interface for `PluginTyCon` cannot be found:
+Test.hs. When run with `ghcide version: 0.2.0 (GHC: 8.10.1)` however, it will
+fail with an error saying that the interface for `PluginTyCon` cannot be found:
 
 ```console
   • Can't find interface-file declaration for type constructor or class PluginTyCon

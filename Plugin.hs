@@ -1,5 +1,5 @@
 -- Copyright (c) 2020 Matthías Páll Gissurarson
-module Plugin ( plugin) where
+module Plugin where
 
 import GhcPlugins hiding (TcPlugin)
 import TcRnTypes (TcPlugin(..),TcPluginResult(TcPluginOk))
